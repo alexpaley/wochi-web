@@ -1,0 +1,38 @@
+{
+  "name": "wochi-web",
+  "version": "1.0.0",
+  "description": "wochi website",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "server": "nodemon --harmony app.js"
+  },
+  "author": "Duc Nguyen",
+  "license": "ISC",
+  "dependencies": {
+    "browserify": "^10.2.1",
+    "co-views": "^0.3.0",
+    "gulp": "^3.8.11",
+    "gulp-stylus": "^2.0.2",
+    "gulp-util": "^3.0.4",
+    "jade": "^1.9.2",
+    "jeet": "^6.1.2",
+    "jquery": "^2.1.4",
+    "koa": "^0.20.0",
+    "koa-favicon": "^1.2.0",
+    "koa-route": "^2.4.1",
+    "koa-static": "^1.4.9",
+    "nib": "^1.1.0",
+    "react": "^0.13.3",
+    "reactify": "^1.1.1",
+    "rupture": "^0.6.1",
+    "source": "0.0.3",
+    "stylus": "^0.51.1",
+    "underscore": "^1.8.3",
+    "vinyl-buffer": "^1.0.0",
+    "vinyl-source-stream": "^1.1.0"
+  },
+  "devDependencies": {
+    "rupture": "^0.6.1"
+  }
+}

@@ -1,0 +1,95 @@
+#home
+    position relative
+    width auto
+    height 100%
+    max-width 100%
+    background url('../img/landing2560px3.jpg') no-repeat center center
+    overflow hidden
+    +below(1024px)
+        background url('../img/landing1024px.jpg') no-repeat center center
+        height 2560px
+    +below(750px)
+        background url('../img/landing750px.jpg') no-repeat center center
+        height 1875px
+    +below(480px)
+        background url('../img/landing480px.jpg') no-repeat center center
+        height 1200px
+    +below(320px)
+        background url('../img/landing320px.jpg') no-repeat center center
+        height 800px
+
+.section-top, .section-dress, .section-feed,
+.section-app, .section-download
+    position relative
+    display block
+    width 100%
+    border 1px solid red
+
+.section-top
+    height 1400px
+    +below(1024px)
+        height 850px
+    +below(750px)
+        height 600px
+    +below(480px)
+        height 375px
+    +below(320px)
+        height 260px
+.section-dress
+    height 600px
+    +below(1024px)
+        height 325px
+    +below(750px)
+        height 250px
+    +below(480px)
+        height 160px
+    +below(320px)
+        height 110px
+.section-feed
+    height 600px
+    +below(1024px)
+        height 325px
+    +below(750px)
+        height 250px
+    +below(480px)
+        height 160px
+    +below(320px)
+        height 110px
+.section-app
+    height 1200px
+    +below(1024px)
+        height 600px
+    +below(750px)
+        height 450px
+    +below(480px)
+        height 300px
+    +below(320px)
+        height 200px
+.section-download
+    height 800px
+    +below(1024px)
+        height 400px
+    +below(750px)
+        height 325px
+    +below(480px)
+        height 200px
+    +below(320px)
+        height 120px
+
+//Common ELements
+.download-container
+        position absolute
+        top 1000px
+        width 100%
+        height auto
+        text-align center
+        .download-button
+            width 300px
+            cursor pointer
+.header-text
+    color orange
+    font-family 'futura', sans-serif
+    text-align center
+
+
+
