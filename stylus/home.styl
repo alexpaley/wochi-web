@@ -23,7 +23,7 @@
     position relative
     display block
     width 100%
-    border 1px solid red
+    //border 1px solid red
 
 .section-top
     height 1400px
@@ -77,11 +77,18 @@
         height 120px
 
 //Common ELements
+footer
+    position absolute
+    bottom 0
+    right 0
+    width 100%
+    .header-text
+        text-align center
 .mobile
     display inline
     +below(480px)
         display none
-.download-container
+.download-container-top
         position absolute
         top 1000px
         width 100%
@@ -95,15 +102,31 @@
             top 290px
         +below(320px)
             top 190px
-        .download-button
-            width 300px
-            cursor pointer
-            +below(1024px)
-                width 250px
-            +below(750px)
-                width 200px
-            +below(480px)
-                width 100px
+.download-container-bottom
+        position absolute
+        top 0
+        width 100%
+        height auto
+        text-align center
+        +below(1024px)
+            top 100px
+        +below(750px)
+            top 100px
+        +below(480px)
+            top 80px
+        +below(320px)
+            top 40px
+.download-button
+    width 300px
+    cursor pointer
+    +below(1024px)
+        width 250px
+    +below(750px)
+        width 200px
+    +below(480px)
+        width 140px
+    +below(320px)
+        width 100px
 
 .costume-container
     position absolute
@@ -128,7 +151,7 @@
     position absolute
     top 50px
     width 100%
-    heigh auto
+    height auto
     text-align center
     +below(750px)
         top 0
@@ -144,6 +167,43 @@
         +below(320px)
             width 30px
 
+.app-container
+    position absolute
+    top 100px
+    width 100%
+    height auto
+    text-align center
+    +below(1024px)
+        top 100px
+    +below(750px)
+        top 30px
+    +below(480px)
+        top 30px
+    +below(320px)
+        top 5px
+    .phone
+        margin-right 100px
+        +below(480px)
+            margin-right 50px
+    .phone
+        +below(1024px)
+            width 250px
+        +below(750px)
+            width 200px
+        +below(480px)
+            width 150px
+        +below(320px)
+            width 100px
+    .watch
+        +below(1024px)
+            width 250px
+        +below(750px)
+            width 175px
+        +below(480px)
+            width 100px
+        +below(320px)
+            width 80px
+
 .header-text
     margin-bottom 50px
     color orange
@@ -153,6 +213,8 @@
         margin-bottom 20px
     +below(320px)
         margin-bottom 5px
+    &.header-text-bottom
+        font-size 14px
 
 h1
     font-size 40px

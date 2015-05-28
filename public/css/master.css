@@ -451,7 +451,6 @@ body {
   position: relative;
   display: block;
   width: 100%;
-  border: 1px solid #f00;
 }
 .section-top {
   height: 1400px;
@@ -568,6 +567,15 @@ body {
     height: 120px;
   }
 }
+footer {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+}
+footer .header-text {
+  text-align: center;
+}
 .mobile {
   display: inline;
 }
@@ -576,7 +584,7 @@ body {
     display: none;
   }
 }
-.download-container {
+.download-container-top {
   position: absolute;
   top: 1000px;
   width: 100%;
@@ -584,41 +592,73 @@ body {
   text-align: center;
 }
 @media only screen and (max-width: 1024px) {
-  .download-container {
+  .download-container-top {
     top: 630px;
   }
 }
 @media only screen and (max-width: 750px) {
-  .download-container {
+  .download-container-top {
     top: 455px;
   }
 }
 @media only screen and (max-width: 480px) {
-  .download-container {
+  .download-container-top {
     top: 290px;
   }
 }
 @media only screen and (max-width: 320px) {
-  .download-container {
+  .download-container-top {
     top: 190px;
   }
 }
-.download-container .download-button {
+.download-container-bottom {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: auto;
+  text-align: center;
+}
+@media only screen and (max-width: 1024px) {
+  .download-container-bottom {
+    top: 100px;
+  }
+}
+@media only screen and (max-width: 750px) {
+  .download-container-bottom {
+    top: 100px;
+  }
+}
+@media only screen and (max-width: 480px) {
+  .download-container-bottom {
+    top: 80px;
+  }
+}
+@media only screen and (max-width: 320px) {
+  .download-container-bottom {
+    top: 40px;
+  }
+}
+.download-button {
   width: 300px;
   cursor: pointer;
 }
 @media only screen and (max-width: 1024px) {
-  .download-container .download-button {
+  .download-button {
     width: 250px;
   }
 }
 @media only screen and (max-width: 750px) {
-  .download-container .download-button {
+  .download-button {
     width: 200px;
   }
 }
 @media only screen and (max-width: 480px) {
-  .download-container .download-button {
+  .download-button {
+    width: 140px;
+  }
+}
+@media only screen and (max-width: 320px) {
+  .download-button {
     width: 100px;
   }
 }
@@ -661,7 +701,7 @@ body {
   position: absolute;
   top: 50px;
   width: 100%;
-  heigh: auto;
+  height: auto;
   text-align: center;
 }
 @media only screen and (max-width: 750px) {
@@ -693,6 +733,81 @@ body {
     width: 30px;
   }
 }
+.app-container {
+  position: absolute;
+  top: 100px;
+  width: 100%;
+  height: auto;
+  text-align: center;
+}
+@media only screen and (max-width: 1024px) {
+  .app-container {
+    top: 100px;
+  }
+}
+@media only screen and (max-width: 750px) {
+  .app-container {
+    top: 30px;
+  }
+}
+@media only screen and (max-width: 480px) {
+  .app-container {
+    top: 30px;
+  }
+}
+@media only screen and (max-width: 320px) {
+  .app-container {
+    top: 5px;
+  }
+}
+.app-container .phone {
+  margin-right: 100px;
+}
+@media only screen and (max-width: 480px) {
+  .app-container .phone {
+    margin-right: 50px;
+  }
+}
+@media only screen and (max-width: 1024px) {
+  .app-container .phone {
+    width: 250px;
+  }
+}
+@media only screen and (max-width: 750px) {
+  .app-container .phone {
+    width: 200px;
+  }
+}
+@media only screen and (max-width: 480px) {
+  .app-container .phone {
+    width: 150px;
+  }
+}
+@media only screen and (max-width: 320px) {
+  .app-container .phone {
+    width: 100px;
+  }
+}
+@media only screen and (max-width: 1024px) {
+  .app-container .watch {
+    width: 250px;
+  }
+}
+@media only screen and (max-width: 750px) {
+  .app-container .watch {
+    width: 175px;
+  }
+}
+@media only screen and (max-width: 480px) {
+  .app-container .watch {
+    width: 100px;
+  }
+}
+@media only screen and (max-width: 320px) {
+  .app-container .watch {
+    width: 80px;
+  }
+}
 .header-text {
   margin-bottom: 50px;
   color: #f9703a;
@@ -708,6 +823,9 @@ body {
   .header-text {
     margin-bottom: 5px;
   }
+}
+.header-text.header-text-bottom {
+  font-size: 14px;
 }
 h1 {
   font-size: 40px;

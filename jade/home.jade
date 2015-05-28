@@ -3,7 +3,7 @@ extends ./layout.jade
 block content
     #home
         section.section-top
-            .download-container
+            .download-container-top
                 a(href="#", target="_blank")
                     img.download-button(src='../img/common/download_button.png')
         section.section-dress
@@ -22,5 +22,12 @@ block content
                 img.food.mobile(src="../img/food/banana.png")
                 img.food.mobile(src="../img/food/pizza.png")
         section.section-app
+            .app-container
+                img.phone(src="../img/common/iphone.png")
+                img.watch(src="../img/common/watch.png")
         section.section-download
-            h5.header-text Made with <3 by Diwei and Dairy Free Games
+            .download-container-bottom
+                a(href="#", target="_blank")
+                    img.download-button(src='../img/common/download_button.png')
+        footer
+            h4.header-text.header-text-bottom Made with <3 by Diwei and Dairy Free Games
