@@ -3,19 +3,19 @@
     width auto
     height 100%
     max-width 100%
-    background url('../img/landing2560px3.jpg') no-repeat center center
+    background url('../img/background/landing2560px3.jpg') no-repeat center center
     overflow hidden
     +below(1024px)
-        background url('../img/landing1024px.jpg') no-repeat center center
+        background url('../img/background/landing1024px.jpg') no-repeat center center
         height 2560px
     +below(750px)
-        background url('../img/landing750px.jpg') no-repeat center center
+        background url('../img/background/landing750px.jpg') no-repeat center center
         height 1875px
     +below(480px)
-        background url('../img/landing480px.jpg') no-repeat center center
+        background url('../img/background/landing480px.jpg') no-repeat center center
         height 1200px
     +below(320px)
-        background url('../img/landing320px.jpg') no-repeat center center
+        background url('../img/background/landing320px.jpg') no-repeat center center
         height 800px
 
 .section-top, .section-dress, .section-feed,
@@ -28,7 +28,7 @@
 .section-top
     height 1400px
     +below(1024px)
-        height 850px
+        height 800px
     +below(750px)
         height 600px
     +below(480px)
@@ -77,19 +77,91 @@
         height 120px
 
 //Common ELements
+.mobile
+    display inline
+    +below(480px)
+        display none
 .download-container
         position absolute
         top 1000px
         width 100%
         height auto
         text-align center
+        +below(1024px)
+            top 630px
+        +below(750px)
+            top 455px
+        +below(480px)
+            top 290px
+        +below(320px)
+            top 190px
         .download-button
             width 300px
             cursor pointer
+            +below(1024px)
+                width 250px
+            +below(750px)
+                width 200px
+            +below(480px)
+                width 100px
+
+.costume-container
+    position absolute
+    top 50px
+    width 100%
+    heigh auto
+    text-align center
+    +below(750px)
+        top 0
+    .costume
+        margin-right 20px
+        +below(1024px)
+            width 160px
+        +below(750px)
+            width 130px
+        +below(480px)
+            width 100px
+        +below(320px)
+            width 80px
+
+.food-container
+    position absolute
+    top 50px
+    width 100%
+    heigh auto
+    text-align center
+    +below(750px)
+        top 0
+    .food
+        margin-right 50px
+        +below(1024px)
+            width 100px
+            margin-right 30px
+        +below(750px)
+            width 80px
+        +below(480px)
+            width 50px
+        +below(320px)
+            width 30px
+
 .header-text
+    margin-bottom 50px
     color orange
     font-family 'futura', sans-serif
     text-align center
+    +below(1024px)
+        margin-bottom 20px
+    +below(320px)
+        margin-bottom 5px
+
+h1
+    font-size 40px
+    +below(750px)
+        font-size 30px
+    +below(480px)
+        font-size 25px
+    +below(320px)
+        font-size 20px
 
 
 
