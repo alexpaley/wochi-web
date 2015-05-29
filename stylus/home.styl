@@ -3,20 +3,20 @@
     width auto
     height 100%
     max-width 100%
-    background url('../img/background/landing2560px3.jpg') no-repeat center center
+    background url('../img/background/landing2560px.jpg') no-repeat center center
     overflow hidden
     +below(1024px)
         background url('../img/background/landing1024px.jpg') no-repeat center center
-        height 2560px
-    +below(750px)
-        background url('../img/background/landing750px.jpg') no-repeat center center
-        height 1875px
+        height 2265px
+    +below(768px)
+        background url('../img/background/landing768px.jpg') no-repeat center center
+        height 1699px
     +below(480px)
         background url('../img/background/landing480px.jpg') no-repeat center center
-        height 1200px
+        height 1360px
     +below(320px)
         background url('../img/background/landing320px.jpg') no-repeat center center
-        height 800px
+        height 897px
 
 .section-top, .section-dress, .section-feed,
 .section-app, .section-download
@@ -26,60 +26,60 @@
     //border 1px solid red
 
 .section-top
-    height 1400px
+    height 880px
     +below(1024px)
-        height 800px
-    +below(750px)
-        height 600px
+        height 625px
+    +below(768px)
+        height 475px
     +below(480px)
-        height 375px
+        height 390px
     +below(320px)
-        height 260px
+        height 250px
 .section-dress
-    height 600px
+    height 450px
     +below(1024px)
         height 325px
-    +below(750px)
+    +below(768px)
         height 250px
     +below(480px)
-        height 160px
+        height 195px
     +below(320px)
-        height 110px
+        height 135px
 .section-feed
-    height 600px
+    height 450px
     +below(1024px)
         height 325px
-    +below(750px)
+    +below(768px)
         height 250px
     +below(480px)
-        height 160px
+        height 195px
     +below(320px)
-        height 110px
+        height 135px
 .section-app
-    height 1200px
+    height 900px
     +below(1024px)
         height 600px
-    +below(750px)
+    +below(768px)
         height 450px
     +below(480px)
-        height 300px
+        height 350px
     +below(320px)
-        height 200px
+        height 215px
 .section-download
-    height 800px
+    height 500px
     +below(1024px)
         height 400px
-    +below(750px)
+    +below(768px)
         height 325px
     +below(480px)
-        height 200px
+        height 240px
     +below(320px)
-        height 120px
+        height 160px
 
 //Common ELements
 footer
     position absolute
-    bottom 0
+    bottom 20px
     right 0
     width 100%
     .header-text
@@ -90,16 +90,16 @@ footer
         display none
 .download-container-top
         position absolute
-        top 1000px
+        top 630px
         width 100%
         height auto
         text-align center
         +below(1024px)
-            top 630px
-        +below(750px)
-            top 455px
+            top 475px
+        +below(768px)
+            top 370px
         +below(480px)
-            top 290px
+            top 260px
         +below(320px)
             top 190px
 .download-container-bottom
@@ -110,18 +110,18 @@ footer
         text-align center
         +below(1024px)
             top 100px
-        +below(750px)
-            top 100px
+        +below(768px)
+            top 55px
         +below(480px)
-            top 80px
-        +below(320px)
             top 40px
+        +below(320px)
+            top 20px
 .download-button
     width 300px
     cursor pointer
     +below(1024px)
         width 250px
-    +below(750px)
+    +below(768px)
         width 200px
     +below(480px)
         width 140px
@@ -132,15 +132,15 @@ footer
     position absolute
     top 50px
     width 100%
-    heigh auto
+    height auto
     text-align center
-    +below(750px)
+    +below(768px)
         top 0
     .costume
         margin-right 20px
         +below(1024px)
             width 160px
-        +below(750px)
+        +below(768px)
             width 130px
         +below(480px)
             width 100px
@@ -153,14 +153,14 @@ footer
     width 100%
     height auto
     text-align center
-    +below(750px)
+    +below(768px)
         top 0
     .food
         margin-right 50px
         +below(1024px)
             width 100px
             margin-right 30px
-        +below(750px)
+        +below(768px)
             width 80px
         +below(480px)
             width 50px
@@ -175,7 +175,7 @@ footer
     text-align center
     +below(1024px)
         top 100px
-    +below(750px)
+    +below(768px)
         top 30px
     +below(480px)
         top 30px
@@ -186,18 +186,20 @@ footer
         +below(480px)
             margin-right 50px
     .phone
+        width 350px
         +below(1024px)
             width 250px
-        +below(750px)
+        +below(768px)
             width 200px
         +below(480px)
             width 150px
         +below(320px)
             width 100px
     .watch
+        width 250px
         +below(1024px)
-            width 250px
-        +below(750px)
+            width 200px
+        +below(768px)
             width 175px
         +below(480px)
             width 100px
@@ -205,20 +207,44 @@ footer
             width 80px
 
 .header-text
+    font-size 30px
     margin-bottom 50px
     color orange
     font-family 'futura', sans-serif
     text-align center
     +below(1024px)
         margin-bottom 20px
+    +below(480px)
+        font-size 20px
     +below(320px)
-        margin-bottom 5px
+        margin-bottom 15px
     &.header-text-bottom
-        font-size 14px
+        font-size 24px
+        +below(480px)
+            font-size 20px
+        +below(320px)
+            font-size 16px
+
+.slogan-container
+    position absolute
+    top 550px
+    width 100%
+    height auto
+    text-align center
+    .slogan
+        color: #212121
+        font-family 'futura', sans-serif
+        text-align center
+        font-size 24px
+        text-transform uppercase
+    +below(1024px)
+        top 400px
+    +below(768px)
+        top 305px
 
 h1
     font-size 40px
-    +below(750px)
+    +below(768px)
         font-size 30px
     +below(480px)
         font-size 25px

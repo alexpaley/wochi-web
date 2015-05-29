@@ -371,7 +371,7 @@ body {
   box-sizing: border-box;
   font-size: 16px;
   background-color: #fff;
-  height: 4613px;
+  height: 3185px;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
@@ -380,25 +380,25 @@ body {
 @media only screen and (max-width: 1024px) {
   html,
   body {
-    height: 2560px;
+    height: 2265px;
   }
 }
-@media only screen and (max-width: 750px) {
+@media only screen and (max-width: 768px) {
   html,
   body {
-    height: 1875px;
+    height: 1699px;
   }
 }
 @media only screen and (max-width: 480px) {
   html,
   body {
-    height: 1200px;
+    height: 1360px;
   }
 }
 @media only screen and (max-width: 320px) {
   html,
   body {
-    height: 800px;
+    height: 897px;
   }
 }
 *,
@@ -416,31 +416,31 @@ body {
   width: auto;
   height: 100%;
   max-width: 100%;
-  background: url("../img/background/landing2560px3.jpg") no-repeat center center;
+  background: url("../img/background/landing2560px.jpg") no-repeat center center;
   overflow: hidden;
 }
 @media only screen and (max-width: 1024px) {
   #home {
     background: url("../img/background/landing1024px.jpg") no-repeat center center;
-    height: 2560px;
+    height: 2265px;
   }
 }
-@media only screen and (max-width: 750px) {
+@media only screen and (max-width: 768px) {
   #home {
-    background: url("../img/background/landing750px.jpg") no-repeat center center;
-    height: 1875px;
+    background: url("../img/background/landing768px.jpg") no-repeat center center;
+    height: 1699px;
   }
 }
 @media only screen and (max-width: 480px) {
   #home {
     background: url("../img/background/landing480px.jpg") no-repeat center center;
-    height: 1200px;
+    height: 1360px;
   }
 }
 @media only screen and (max-width: 320px) {
   #home {
     background: url("../img/background/landing320px.jpg") no-repeat center center;
-    height: 800px;
+    height: 897px;
   }
 }
 .section-top,
@@ -453,123 +453,123 @@ body {
   width: 100%;
 }
 .section-top {
-  height: 1400px;
+  height: 880px;
 }
 @media only screen and (max-width: 1024px) {
   .section-top {
-    height: 800px;
+    height: 625px;
   }
 }
-@media only screen and (max-width: 750px) {
+@media only screen and (max-width: 768px) {
   .section-top {
-    height: 600px;
+    height: 475px;
   }
 }
 @media only screen and (max-width: 480px) {
   .section-top {
-    height: 375px;
+    height: 390px;
   }
 }
 @media only screen and (max-width: 320px) {
   .section-top {
-    height: 260px;
+    height: 250px;
   }
 }
 .section-dress {
-  height: 600px;
+  height: 450px;
 }
 @media only screen and (max-width: 1024px) {
   .section-dress {
     height: 325px;
   }
 }
-@media only screen and (max-width: 750px) {
+@media only screen and (max-width: 768px) {
   .section-dress {
     height: 250px;
   }
 }
 @media only screen and (max-width: 480px) {
   .section-dress {
-    height: 160px;
+    height: 195px;
   }
 }
 @media only screen and (max-width: 320px) {
   .section-dress {
-    height: 110px;
+    height: 135px;
   }
 }
 .section-feed {
-  height: 600px;
+  height: 450px;
 }
 @media only screen and (max-width: 1024px) {
   .section-feed {
     height: 325px;
   }
 }
-@media only screen and (max-width: 750px) {
+@media only screen and (max-width: 768px) {
   .section-feed {
     height: 250px;
   }
 }
 @media only screen and (max-width: 480px) {
   .section-feed {
-    height: 160px;
+    height: 195px;
   }
 }
 @media only screen and (max-width: 320px) {
   .section-feed {
-    height: 110px;
+    height: 135px;
   }
 }
 .section-app {
-  height: 1200px;
+  height: 900px;
 }
 @media only screen and (max-width: 1024px) {
   .section-app {
     height: 600px;
   }
 }
-@media only screen and (max-width: 750px) {
+@media only screen and (max-width: 768px) {
   .section-app {
     height: 450px;
   }
 }
 @media only screen and (max-width: 480px) {
   .section-app {
-    height: 300px;
+    height: 350px;
   }
 }
 @media only screen and (max-width: 320px) {
   .section-app {
-    height: 200px;
+    height: 215px;
   }
 }
 .section-download {
-  height: 800px;
+  height: 500px;
 }
 @media only screen and (max-width: 1024px) {
   .section-download {
     height: 400px;
   }
 }
-@media only screen and (max-width: 750px) {
+@media only screen and (max-width: 768px) {
   .section-download {
     height: 325px;
   }
 }
 @media only screen and (max-width: 480px) {
   .section-download {
-    height: 200px;
+    height: 240px;
   }
 }
 @media only screen and (max-width: 320px) {
   .section-download {
-    height: 120px;
+    height: 160px;
   }
 }
 footer {
   position: absolute;
-  bottom: 0;
+  bottom: 20px;
   right: 0;
   width: 100%;
 }
@@ -586,24 +586,24 @@ footer .header-text {
 }
 .download-container-top {
   position: absolute;
-  top: 1000px;
+  top: 630px;
   width: 100%;
   height: auto;
   text-align: center;
 }
 @media only screen and (max-width: 1024px) {
   .download-container-top {
-    top: 630px;
+    top: 475px;
   }
 }
-@media only screen and (max-width: 750px) {
+@media only screen and (max-width: 768px) {
   .download-container-top {
-    top: 455px;
+    top: 370px;
   }
 }
 @media only screen and (max-width: 480px) {
   .download-container-top {
-    top: 290px;
+    top: 260px;
   }
 }
 @media only screen and (max-width: 320px) {
@@ -623,19 +623,19 @@ footer .header-text {
     top: 100px;
   }
 }
-@media only screen and (max-width: 750px) {
+@media only screen and (max-width: 768px) {
   .download-container-bottom {
-    top: 100px;
+    top: 55px;
   }
 }
 @media only screen and (max-width: 480px) {
   .download-container-bottom {
-    top: 80px;
+    top: 40px;
   }
 }
 @media only screen and (max-width: 320px) {
   .download-container-bottom {
-    top: 40px;
+    top: 20px;
   }
 }
 .download-button {
@@ -647,7 +647,7 @@ footer .header-text {
     width: 250px;
   }
 }
-@media only screen and (max-width: 750px) {
+@media only screen and (max-width: 768px) {
   .download-button {
     width: 200px;
   }
@@ -666,10 +666,10 @@ footer .header-text {
   position: absolute;
   top: 50px;
   width: 100%;
-  heigh: auto;
+  height: auto;
   text-align: center;
 }
-@media only screen and (max-width: 750px) {
+@media only screen and (max-width: 768px) {
   .costume-container {
     top: 0;
   }
@@ -682,7 +682,7 @@ footer .header-text {
     width: 160px;
   }
 }
-@media only screen and (max-width: 750px) {
+@media only screen and (max-width: 768px) {
   .costume-container .costume {
     width: 130px;
   }
@@ -704,7 +704,7 @@ footer .header-text {
   height: auto;
   text-align: center;
 }
-@media only screen and (max-width: 750px) {
+@media only screen and (max-width: 768px) {
   .food-container {
     top: 0;
   }
@@ -718,7 +718,7 @@ footer .header-text {
     margin-right: 30px;
   }
 }
-@media only screen and (max-width: 750px) {
+@media only screen and (max-width: 768px) {
   .food-container .food {
     width: 80px;
   }
@@ -745,7 +745,7 @@ footer .header-text {
     top: 100px;
   }
 }
-@media only screen and (max-width: 750px) {
+@media only screen and (max-width: 768px) {
   .app-container {
     top: 30px;
   }
@@ -768,12 +768,15 @@ footer .header-text {
     margin-right: 50px;
   }
 }
+.app-container .phone {
+  width: 350px;
+}
 @media only screen and (max-width: 1024px) {
   .app-container .phone {
     width: 250px;
   }
 }
-@media only screen and (max-width: 750px) {
+@media only screen and (max-width: 768px) {
   .app-container .phone {
     width: 200px;
   }
@@ -788,12 +791,15 @@ footer .header-text {
     width: 100px;
   }
 }
+.app-container .watch {
+  width: 250px;
+}
 @media only screen and (max-width: 1024px) {
   .app-container .watch {
-    width: 250px;
+    width: 200px;
   }
 }
-@media only screen and (max-width: 750px) {
+@media only screen and (max-width: 768px) {
   .app-container .watch {
     width: 175px;
   }
@@ -809,6 +815,7 @@ footer .header-text {
   }
 }
 .header-text {
+  font-size: 30px;
   margin-bottom: 50px;
   color: #f9703a;
   font-family: 'futura', sans-serif;
@@ -819,18 +826,57 @@ footer .header-text {
     margin-bottom: 20px;
   }
 }
+@media only screen and (max-width: 480px) {
+  .header-text {
+    font-size: 20px;
+  }
+}
 @media only screen and (max-width: 320px) {
   .header-text {
-    margin-bottom: 5px;
+    margin-bottom: 15px;
   }
 }
 .header-text.header-text-bottom {
-  font-size: 14px;
+  font-size: 24px;
+}
+@media only screen and (max-width: 480px) {
+  .header-text.header-text-bottom {
+    font-size: 20px;
+  }
+}
+@media only screen and (max-width: 320px) {
+  .header-text.header-text-bottom {
+    font-size: 16px;
+  }
+}
+.slogan-container {
+  position: absolute;
+  top: 550px;
+  width: 100%;
+  height: auto;
+  text-align: center;
+}
+.slogan-container .slogan {
+  color: #212121;
+  font-family: 'futura', sans-serif;
+  text-align: center;
+  font-size: 24px;
+  text-transform: uppercase;
+}
+@media only screen and (max-width: 1024px) {
+  .slogan-container {
+    top: 400px;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .slogan-container {
+    top: 305px;
+  }
 }
 h1 {
   font-size: 40px;
 }
-@media only screen and (max-width: 750px) {
+@media only screen and (max-width: 768px) {
   h1 {
     font-size: 30px;
   }
