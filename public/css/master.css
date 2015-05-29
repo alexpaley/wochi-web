@@ -697,6 +697,9 @@ footer .header-text {
     width: 80px;
   }
 }
+.costume-container .costume:last-child {
+  margin-right: 0;
+}
 .food-container {
   position: absolute;
   top: 50px;
@@ -732,6 +735,9 @@ footer .header-text {
   .food-container .food {
     width: 30px;
   }
+}
+.food-container .food:last-child {
+  margin-right: 0;
 }
 .app-container {
   position: absolute;
