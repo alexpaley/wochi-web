@@ -739,6 +739,11 @@ footer .header-text {
 .food-container .food:last-child {
   margin-right: 0;
 }
+@media only screen and (max-width: 480px) {
+  .last-mobile {
+    margin-right: 0 !important;
+  }
+}
 .app-container {
   position: absolute;
   top: 100px;
