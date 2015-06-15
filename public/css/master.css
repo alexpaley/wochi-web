@@ -416,30 +416,30 @@ body {
   width: auto;
   height: 100%;
   max-width: 100%;
-  background: url("../img/background/landing2560px.jpg") no-repeat center center;
+  background: url("../img/background/landing2560px-optimized.jpg") no-repeat center center;
   overflow: hidden;
 }
 @media only screen and (max-width: 1024px) {
   #home {
-    background: url("../img/background/landing1024px.jpg") no-repeat center center;
+    background: url("../img/background/landing1024px-optimized.jpg") no-repeat center center;
     height: 2265px;
   }
 }
 @media only screen and (max-width: 768px) {
   #home {
-    background: url("../img/background/landing768px.jpg") no-repeat center center;
+    background: url("../img/background/landing768px-optimized.jpg") no-repeat center center;
     height: 1699px;
   }
 }
 @media only screen and (max-width: 480px) {
   #home {
-    background: url("../img/background/landing480px.jpg") no-repeat center center;
+    background: url("../img/background/landing480px-optimized.jpg") no-repeat center center;
     height: 1360px;
   }
 }
 @media only screen and (max-width: 320px) {
   #home {
-    background: url("../img/background/landing320px.jpg") no-repeat center center;
+    background: url("../img/background/landing320px-optimized.jpg") no-repeat center center;
     height: 897px;
   }
 }
@@ -676,6 +676,7 @@ footer .header-text {
 }
 .costume-container .costume {
   margin-right: 20px;
+  width: 200px;
 }
 @media only screen and (max-width: 1024px) {
   .costume-container .costume {
@@ -694,7 +695,7 @@ footer .header-text {
 }
 @media only screen and (max-width: 320px) {
   .costume-container .costume {
-    width: 80px;
+    width: 75px;
   }
 }
 .costume-container .costume:last-child {
@@ -709,7 +710,7 @@ footer .header-text {
 }
 @media only screen and (max-width: 768px) {
   .food-container {
-    top: 0;
+    top: 10px;
   }
 }
 .food-container .food {
@@ -852,12 +853,12 @@ footer .header-text {
 }
 @media only screen and (max-width: 480px) {
   .header-text.header-text-bottom {
-    font-size: 20px;
+    font-size: 16px;
   }
 }
 @media only screen and (max-width: 320px) {
   .header-text.header-text-bottom {
-    font-size: 16px;
+    font-size: 14px;
   }
 }
 .slogan-container {
@@ -901,4 +902,8 @@ h1 {
   h1 {
     font-size: 20px;
   }
+}
+a {
+  text-decoration: none;
+  color: #f9703a;
 }

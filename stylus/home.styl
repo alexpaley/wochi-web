@@ -3,19 +3,19 @@
     width auto
     height 100%
     max-width 100%
-    background url('../img/background/landing2560px.jpg') no-repeat center center
+    background url('../img/background/landing2560px-optimized.jpg') no-repeat center center
     overflow hidden
     +below(1024px)
-        background url('../img/background/landing1024px.jpg') no-repeat center center
+        background url('../img/background/landing1024px-optimized.jpg') no-repeat center center
         height 2265px
     +below(768px)
-        background url('../img/background/landing768px.jpg') no-repeat center center
+        background url('../img/background/landing768px-optimized.jpg') no-repeat center center
         height 1699px
     +below(480px)
-        background url('../img/background/landing480px.jpg') no-repeat center center
+        background url('../img/background/landing480px-optimized.jpg') no-repeat center center
         height 1360px
     +below(320px)
-        background url('../img/background/landing320px.jpg') no-repeat center center
+        background url('../img/background/landing320px-optimized.jpg') no-repeat center center
         height 897px
 
 .section-top, .section-dress, .section-feed,
@@ -138,6 +138,7 @@ footer
         top 0
     .costume
         margin-right 20px
+        width 200px
         +below(1024px)
             width 160px
         +below(768px)
@@ -145,7 +146,7 @@ footer
         +below(480px)
             width 100px
         +below(320px)
-            width 80px
+            width 75px
         &:last-child
             margin-right 0
 
@@ -156,7 +157,7 @@ footer
     height auto
     text-align center
     +below(768px)
-        top 0
+        top 10px
     .food
         margin-right 50px
         +below(1024px)
@@ -229,9 +230,9 @@ footer
     &.header-text-bottom
         font-size 24px
         +below(480px)
-            font-size 20px
-        +below(320px)
             font-size 16px
+        +below(320px)
+            font-size 14px
 
 .slogan-container
     position absolute
@@ -259,5 +260,8 @@ h1
     +below(320px)
         font-size 20px
 
+a
+    text-decoration none
+    color orange
 
 
